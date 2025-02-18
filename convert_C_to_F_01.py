@@ -2,7 +2,7 @@
 
 # NAME: Andrew Gellatly
 # DATE: 2/18/2025
-# BRIEF DESCRIPTION:  A program that converts form C to F in degrees.
+# BRIEF DESCRIPTION:  A program that converts from C to F in degrees.
 
 
 
@@ -23,7 +23,7 @@ C = float(input('Enter a temperature in Celsius: '))
 F = C * (9/5) + 32
 
 print()
-print(f'{C} degrees Celsius is 212.0 degrees Fahrenheit.')
+print(f'{C} degrees Celsius is {F} degrees Fahrenheit.')
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
