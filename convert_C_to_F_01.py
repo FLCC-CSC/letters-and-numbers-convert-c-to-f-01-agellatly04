@@ -1,8 +1,8 @@
 # FILE NAME - convert_C_to_F_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Andrew Gellatly
+# DATE: 2/18/2025
+# BRIEF DESCRIPTION:  A program that converts form C to F in degrees.
 
 
 
@@ -19,14 +19,11 @@
     
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+C = float(input('Enter a temperature in Celsius: '))
+F = C * (9/5) + 32
 
-
-
-
-
-
-
-
+print()
+print(f'{C} degrees Celsius is 212.0 degrees Fahrenheit.')
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -76,14 +73,14 @@ Enter a temperature in Celsius: 1
 
 1. What does `float` mean?
 
-
+It's equal to 'double' in Java and allows for numbers with decimals to be stored.
 
 
 
 2. Why do you think it is important to use `float` as opposed to
    a different type of variable type?
 
-
+I think it's important in this case because we're multiplying by a fraction of '9/5' so we might get a decimal in our answer.
 
 
 
